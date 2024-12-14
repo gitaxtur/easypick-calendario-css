@@ -5,8 +5,9 @@ body {
 }
 
 .easepick-day.weekend {
-    background-color: #FFEDD5 !important;
+    background-color: #FFE4E1 !important; /* Color rosado claro */
 }
+
 
 .easepick-day.friday {
     background-color: #D1F7C4 !important;
