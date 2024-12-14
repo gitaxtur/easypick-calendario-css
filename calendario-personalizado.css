@@ -1,11 +1,12 @@
 /* Ajustar el ancho del calendario */
-.easepick-wrapper {
+#buscador_combinado .easepick-wrapper {
     width: 500px !important; /* Ajusta el ancho del calendario */
     margin: 0 auto; /* Centra el calendario */
 }
 
 /* Cambiar el tamaño de los números */
-.easepick-day {
+#buscador_combinado .easepick-day {
+    color: #333
     font-size: 1.6rem !important; /* Tamaño más grande para los números */
     font-weight: bold; /* Resaltar los números */
 }
