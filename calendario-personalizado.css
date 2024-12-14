@@ -1,0 +1,59 @@
+/* Ajustar el ancho del calendario */
+.easepick-wrapper {
+    width: 500px !important; /* Ajusta el ancho del calendario */
+    margin: 0 auto; /* Centra el calendario */
+}
+
+/* Cambiar el tamaño de los números */
+.easepick-day {
+    font-size: 1.6rem !important; /* Tamaño más grande para los números */
+    font-weight: bold; /* Resaltar los números */
+}
+
+/* Estilizar los fines de semana */
+.weekend {
+    background-color: #FFEDD5 !important; /* Color para viernes y sábado */
+    border-radius: 5px;
+}
+
+/* Estilizar los domingos */
+.sunday {
+    background-color: #FED7D7 !important; /* Color para los domingos */
+    border-radius: 5px;
+}
+
+/* Cambiar el color del texto de los días festivos */
+.easepick-day[data-festivo="true"] {
+    color: #FF6347 !important; /* Color rojo para días festivos */
+    font-weight: bold;
+}
+
+/* Personalizar la cabecera del calendario */
+.easepick-header {
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Ajustar el estilo de los botones del calendario */
+.easepick-next,
+.easepick-prev {
+    background-color: #ddd;
+    color: #333;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sombra alrededor del calendario */
+.easepick-calendar {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 8px;
+    padding: 10px;
+}
